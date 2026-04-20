@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.10.0](https://github.com/useplunk/plunk/compare/v0.9.0...v0.10.0) (2026-04-20)
+
+
+### Features
+
+* implement meter event processing with queue for Stripe billing ([e048fc1](https://github.com/useplunk/plunk/commit/e048fc157080b36f40fbfc4440db51367a2d374b))
+
+
+### Bug Fixes
+
+* reconcile totalRecipients in CampaignService to prevent stuck campaigns ([4322de9](https://github.com/useplunk/plunk/commit/4322de929a84279370bedcbb4f6b7dcd81145aea)), closes [#348](https://github.com/useplunk/plunk/issues/348)
+* Sync display name in TemplateSearchPicker when initialName changes ([3649392](https://github.com/useplunk/plunk/commit/3649392b475271198cd61295091e8acf708efa25))
+* Sync display name in TemplateSearchPicker when initialName changes ([cbde3cc](https://github.com/useplunk/plunk/commit/cbde3cce3fcee382dae04e79a9480e67ad896725))
+
 ## [0.9.0](https://github.com/useplunk/plunk/compare/v0.8.0...v0.9.0) (2026-04-20)
 
 
